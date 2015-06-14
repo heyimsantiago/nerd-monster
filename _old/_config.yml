@@ -1,0 +1,11 @@
+# Site settings
+title: Nerd Monster
+email: create@nerd-monster.com
+description: Local Atlanta Design and Development studio
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://nerd-monster.com" # the base hostname & protocol for your site
+twitter_username: nd_monster
+
+# Build settings
+markdown: kramdown
+permalink: /:title
