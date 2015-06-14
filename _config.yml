@@ -1,9 +1,9 @@
 # Site settings
-title: WebConfs - A blog about web conferences
-email: coolwebconfs@gmail.com
-description: A blog about my favorite web conferences.
+title: Nerd-Monster - Local Atlanta Design and Development Studio
+email: create@nerdmonster.design
+description: Local Atlanta Design and Development Studio
 baseurl: '/nerd-monster'
-url: "http://webconfs.me" # the base hostname & protocol for your site
+url: "http://nerdmonster.design" # the base hostname & protocol for your site
 twitter_username: nd-monster
 
 
