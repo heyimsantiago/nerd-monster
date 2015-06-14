@@ -3,11 +3,14 @@
 // ==========================================================================
 
 .hero {
-	height: 335px;
+	height: 100%;
+	width: 100%;
+	min-height: 800px;
 	background: url('#{$path--rel}/bg-main.jpg'),
 	            linear-gradient(#75da8f, #77cae9);
-	background-blend-mode: multiply;
+	/*background-blend-mode: darken;*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-bottom: em(50px);
+	
 }
