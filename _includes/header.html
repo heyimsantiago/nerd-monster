@@ -3,20 +3,11 @@
   <div class="grid">
     <div class="grid__col--12">
       <a class="site-logo" href="{{ site.baseurl }}/" title="Nerd-Monster – Home">
-       <img src="{{ site.baseurl }}/img/logo.png">
+       <img src="{{ site.baseurl }}/img/logo.svg">
       </a>
       <nav class="navbar" role="navigation">
         <ul class="nav">
-        {% for page in site.pages %}
-        <!-- Capture the page title to the URL -->
-          {% assign current = page.title | downcase %}
-          {% if page.title %}
-          <li {% if location == current %} class="nav__item--current" {% else %} class="nav__item" {% endif %}>
-            <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          </li>
-          {% endif %}
-          
-        {% endfor %}
+       
         </ul>
       </nav>
     </div>
